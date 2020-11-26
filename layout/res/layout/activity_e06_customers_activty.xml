@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ir.ashkaran.season8.E06CustomersActivity">
+
+
+    <TableRow android:padding="16dp">
+        <TextView android:textStyle="bold"
+            android:text="@string/CustomerID"/>
+         <TextView
+             android:layout_marginLeft="16dp"
+             android:text="@string/CustomerID"
+             android:id="@+id/CustomerID"/>
+    </TableRow>
+
+
+    <TableRow android:padding="16dp">
+        <TextView android:textStyle="bold"
+            android:text="@string/CustomerName"/>
+         <TextView
+             android:layout_marginLeft="16dp"
+             android:text="@string/CustomerName"
+             android:id="@+id/CustomerName"/>
+    </TableRow>
+
+    <TableRow android:padding="16dp">
+        <TextView android:textStyle="bold"
+            android:text="@string/ContactName"/>
+         <TextView
+             android:layout_marginLeft="16dp"
+             android:text="@string/ContactName"
+             android:id="@+id/ContactName"/>
+    </TableRow>
+
+
+    <TableRow android:padding="16dp">
+        <TextView android:textStyle="bold"
+            android:text="@string/Address"/>
+         <TextView
+             android:layout_marginLeft="16dp"
+             android:text="@string/Address"
+             android:id="@+id/Address"/>
+    </TableRow>
+
+
+     <TableRow android:padding="16dp">
+        <TextView android:textStyle="bold"
+            android:text="@string/City"/>
+         <TextView
+             android:layout_marginLeft="16dp"
+             android:text="@string/City"
+             android:id="@+id/City"/>
+    </TableRow>
+
+
+
+    <TableRow android:padding="16dp">
+        <TextView android:textStyle="bold"
+            android:text="@string/PostalCode"/>
+         <TextView
+             android:layout_marginLeft="16dp"
+             android:text="@string/PostalCode"
+             android:id="@+id/PostalCode"/>
+    </TableRow>
+
+
+    <TableRow android:padding="16dp">
+        <TextView android:textStyle="bold"
+            android:text="@string/Country"/>
+         <TextView
+             android:layout_marginLeft="16dp"
+             android:text="@string/Country"
+             android:id="@+id/Country"/>
+    </TableRow>
+
+
+
+
+
+
+
+
+
+
+</TableLayout>

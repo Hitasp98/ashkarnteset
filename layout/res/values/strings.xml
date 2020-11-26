@@ -1,0 +1,99 @@
+<resources>
+    <string name="app_name">Season8</string>
+
+    <string name="enterUrl"> Enter URL ...</string>
+    <string name="defaultUrl">http://ashkaran.ir/learnfiles/season8/e01.php</string>
+
+
+    <!-- E02 -->
+    <string name="checkConnectivity">Check Connectivity</string>
+    <string name="netState">Network State</string>
+    <string name="connected">Connected</string>
+    <string name="notConnected">Not Connected</string>
+    <string name="dataAvailable">Data Available</string>
+    <string name="dataNotAvailable">Data Not Available</string>
+    <!-- E02 -->
+
+
+    <!-- E03 -->
+    <string name="myLocalBroadCastAction">myLocalBroadCastAction</string>
+    <!-- E03 -->
+
+    <!-- E04 -->
+    <string name="failed">Failed</string>
+    <!-- E04 -->
+
+
+    <!--E06 -->
+    <string name="CustomerID">CustomerID</string>
+    <string name="CustomerName">CustomerName</string>
+    <string name="ContactName">ContactName</string>
+    <string name="Address">Address</string>
+    <string name="City">City</string>
+    <string name="PostalCode">PostalCode</string>
+    <string name="Country">Country</string>
+    <!--E06 -->
+
+
+    <!-- E10 -->
+    <string name="Username">Username</string>
+    <string name="Password">Password</string>
+    <string name="Login">Login</string>
+    <string name="newUser">To create a new Account just enter a username and password</string>
+    <string name="fillAll">Please fill all items</string>
+    <string name="loginFailed">Username or password is wrong</string>
+    <string name="notData">Data not available</string>
+    <string name="wrongData">You have sent wrong Data</string>
+    <string name="error">Error : </string>
+    <string name="welcome">Welcome </string>
+    <string name="successRegistration">New Account created !</string>
+    <string name="newAccount">Create new account !</string>
+    <string name="newAccountMessage">This account %s not exists \nDo you really wants to create a new account ?</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="title_activity_e11_upload_image">E11UploadImage</string>
+
+
+    <!-- E10 -->
+
+
+    <!-- E11 -->
+    <string name="photoTitle">Upload new Photo</string>
+    <string name="photoMessage">Capture a new image or choose from gallery</string>
+    <string name="capture">Capture !</string>
+    <string name="gallery">From gallery</string>
+    <string name="permissionGranted">Permission Granted !</string>
+    <string name="PermissionDenied">Permission Denied !</string>
+    <string name="somethingIsWrong">Something is wrong !</string>
+    <string name="notEnoughData">Not enough data !</string>
+    <string name="sessionFailed">Login data is incorrect</string>
+    <string name="fileNotAllowed">This file type is not Allowed !</string>
+    <string name="FAILED_UPLOAD">FAILED_UPLOAD</string>
+    <string name="successUpload">Your file has been Uploaded</string>
+    <!-- E11 -->
+
+
+    <!--12 -->
+    <string name="logout">LogOut</string>
+    <string name="logoutMessage">Press OK if you really wants to LogOut ?</string>
+
+    <!--12 -->
+
+
+
+
+    <string-array name="activity">
+        <item>E01HttpConnection</item>
+        <item>E02NetworkState</item>
+        <item>E03NetworkStateChangeReceiver</item>
+        <item>E04AndroidAsyncHttp</item>
+        <item>E05JSONArray</item>
+        <item>E06JSONObject</item>
+        <item>E07Gson</item>
+        <item>E08CircleImageView</item>
+        <item>E09UniversalImageLoader</item>
+        <item>E10Login</item>
+        <item>E11UploadImage</item>
+        <item>E12LogOut</item>
+    </string-array>
+</resources>
